@@ -1,0 +1,119 @@
+*{  
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Racing Sans One", sans-serif;
+}
+h2{
+    color: white;
+}
+body{
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+.btns .malebtn{
+    padding: 20px 15px;
+    width: 10%;
+    color: white;
+    
+}
+.btns .femalebtn{
+    padding: 20px 15px;
+    width: 10%;
+    color: white;
+    
+    
+}
+h1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.main{
+    padding: 40px 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    
+    box-shadow: 3px 10px 130px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 3px 10px 130px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 10px 130px 0px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    margin: 30px auto;
+    row-gap: 20px;
+}
+input,button{
+    padding: 20px 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border: 1px solid white;
+    background: transparent;
+    outline: none;
+    color: rgb(75, 75, 75);
+    font-weight: bold;
+    width: 100%;;
+}
+input::placeholder{
+    color: rgb(75, 75, 75);
+    font-weight: bold;
+}
+.heightField,.weightField,
+.fheightField,.fweightField{
+    position: relative;
+    
+}
+.heightField .heightError,
+.weightField .weightError,
+.fheightField .fheightError,
+.fweightField .fweightError{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: translateY(2px);
+    color: red;
+    font-size: 12px;
+    -webkit-transform: translateY(2px);
+    -moz-transform: translateY(2px);
+    -ms-transform: translateY(2px);
+    -o-transform: translateY(2px);
+}
+.result,.fresult{
+    color: green;
+    font-size: 25px;
+    margin: 0 auto;
+}
+.main .sugg,.fsugg{
+    color: red;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 700;
+}
+.fmalebmi .main{
+    background-color: #FBDA61;
+    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+    
+
+}
+.fmalebmi{
+    display: none;
+}
+
+
